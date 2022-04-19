@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{BD079FD0-C287-40EF-B0EE-C61A94EC4AC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Service", "2 - Service", "{C06D8B33-362C-41FC-813F-460982AE41A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Model", "3 - Model", "{9ED07C01-A41E-4C31-8EB6-E3BCBAD04926}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{84314F3C-76ED-4F71-BCB7-C77C744D80F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - CrossCutting", "4.1 - CrossCutting", "{13D75340-41AB-4D4E-9943-A5D0964DDA71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxContatos.Mvc", "src\AjaxContatos.Mvc\AjaxContatos.Mvc.csproj", "{83360B8A-BD7A-481B-A6F3-52D7E2C90B61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxContatos.Service", "src\AjaxContatos.Service\AjaxContatos.Service.csproj", "{DE9C8538-2A1E-4430-A3C8-2C593E5CBBF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxContatos.CrossCutting", "src\AjaxContatos.CrossCutting\AjaxContatos.CrossCutting.csproj", "{AE04C65C-69FE-4F47-99D3-ADC247B7A96A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxContatos.Domain", "src\AjaxContatos.Domain\AjaxContatos.Domain.csproj", "{EF3BE2C9-0CF5-4B77-9FB2-630A892DA5B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83360B8A-BD7A-481B-A6F3-52D7E2C90B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83360B8A-BD7A-481B-A6F3-52D7E2C90B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83360B8A-BD7A-481B-A6F3-52D7E2C90B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83360B8A-BD7A-481B-A6F3-52D7E2C90B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE9C8538-2A1E-4430-A3C8-2C593E5CBBF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE9C8538-2A1E-4430-A3C8-2C593E5CBBF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE9C8538-2A1E-4430-A3C8-2C593E5CBBF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9C8538-2A1E-4430-A3C8-2C593E5CBBF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE04C65C-69FE-4F47-99D3-ADC247B7A96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE04C65C-69FE-4F47-99D3-ADC247B7A96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE04C65C-69FE-4F47-99D3-ADC247B7A96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE04C65C-69FE-4F47-99D3-ADC247B7A96A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3BE2C9-0CF5-4B77-9FB2-630A892DA5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3BE2C9-0CF5-4B77-9FB2-630A892DA5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3BE2C9-0CF5-4B77-9FB2-630A892DA5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3BE2C9-0CF5-4B77-9FB2-630A892DA5B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13D75340-41AB-4D4E-9943-A5D0964DDA71} = {84314F3C-76ED-4F71-BCB7-C77C744D80F9}
+		{83360B8A-BD7A-481B-A6F3-52D7E2C90B61} = {BD079FD0-C287-40EF-B0EE-C61A94EC4AC4}
+		{DE9C8538-2A1E-4430-A3C8-2C593E5CBBF0} = {C06D8B33-362C-41FC-813F-460982AE41A0}
+		{AE04C65C-69FE-4F47-99D3-ADC247B7A96A} = {13D75340-41AB-4D4E-9943-A5D0964DDA71}
+		{EF3BE2C9-0CF5-4B77-9FB2-630A892DA5B2} = {9ED07C01-A41E-4C31-8EB6-E3BCBAD04926}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E40A4F30-1E21-4FE0-BD78-578AE2B8566E}
+	EndGlobalSection
+EndGlobal
